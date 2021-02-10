@@ -111,17 +111,6 @@ garden_harvest %>%
 
 ## Bicycle-Use Patterns
 
-In this activity, you'll examine some factors that may influence the use of bicycles in a bike-renting program.  The data come from Washington, DC and cover the last quarter of 2014.
-
-<center>
-
-![A typical Capital Bikeshare station. This one is at Florida and California, next to Pleasant Pops.](https://www.macalester.edu/~dshuman1/data/112/bike_station.jpg){300px}
-
-
-![One of the vans used to redistribute bicycles to different stations.](https://www.macalester.edu/~dshuman1/data/112/bike_van.jpg){300px}
-
-</center>
-
 Two data tables are available:
 
 - `Trips` contains records of individual rentals
@@ -263,7 +252,7 @@ departures %>%
   16. Only 14.4% of the trips in our data are carried out by casual users. Create a plot that shows which area(s) have stations with a much higher percentage of departures by casual users. What patterns do you notice? (Again, we'll improve this next week when we learn about maps).
   
 ```{r}
-departure_by_station %>%
+departures %>%
   ggplot(aes(x = long, y = lat, color = prop_casual))+
   geom_point()+
   scale_color_viridis_c(option = "magma")
