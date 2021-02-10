@@ -313,9 +313,10 @@ Trips %>%
 
 <br> The table displays the percentage of casual and registered riders on each day of the week, respectively. We can observe that registered ridership is highest on Wednesday and Thursday while casual ridership is highest on Saturday. 
 
-**DID YOU REMEMBER TO GO BACK AND CHANGE THIS SET OF EXERCISES TO THE LARGER DATASET? IF NOT, DO THAT NOW.**
 
 ## GitHub link
 
   20. Below, provide a link to your GitHub page with this set of Weekly Exercises. Specifically, if the name of the file is 03_exercises.Rmd, provide a link to the 03_exercises.md file, which is the one that will be most readable on GitHub.
+  
+[03_exercise](https://github.com/twangchu99/03_exercise/blob/main/03_exercise.Rmd)
 
